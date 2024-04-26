@@ -1,0 +1,104 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+body {
+  background-image: url(bg01.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Main styles */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(255, 182, 238);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table */
+.activity-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.activity-table th,
+.activity-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.activity-table th {
+  background-color: cyan;
+  text-align: center;
+}
+
+/* Completed tasks */
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Input and buttons */
+input[type="text"], input[type="date"], input[type="time"] {
+  padding: 8px;
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin : 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #f44336;
+}
+
+.cancel-button:hover {
+  background-color: #d6392e;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Filter buttons */
+
+.filter-buttons button {
+  margin-right: 10px;
+  background-color: grey;
+  color: #fff;
+}
+
+.filter-buttons button:hover {
+  background-color: #0056b3;
+}
